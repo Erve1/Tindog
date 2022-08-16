@@ -1,0 +1,155 @@
+/* General */
+
+html {
+    background: burlywood;
+        font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 10px auto;
+    padding: 0;
+    max-width: 550px;
+    min-width: 350px;
+}
+
+#container {
+    background: linear-gradient(#FFFFFF, #F6F7FB);
+}
+
+/* Top */
+
+#header-el {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px;   
+}
+
+/* Middle */
+
+#section-el {
+   position: relative;
+}
+
+#end {
+    position: absolute;
+    bottom: 5%;
+    width: 97%;
+    text-align: center;
+    font-size: 150%;
+}
+
+#bio {
+    color: white;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.2);
+    position: absolute;
+    bottom: 20px;
+    width: 97%;
+    margin: 1.5%;
+}
+
+/* Bottom */
+
+#controls-el {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+
+/* Image Settings */
+
+img {
+    max-width: 100%;
+}
+
+#avatar {
+    position: relative
+}
+
+#like {
+    display: none;
+    position: absolute;
+    top: 8%;
+    left: 5%
+}
+
+#nope {
+    display: none;
+    position: absolute;
+    top: 8%;
+    left: 5%
+}
+
+#like, #nope {
+    transform: rotate(-30deg);
+    width: 40%;
+}
+
+
+.icon, .logo {
+    height: 41px;
+    cursor: pointer;
+}
+
+.icon, {
+    opacity: 0.7;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.dog {
+    border-radius: 10px;
+    display: block;
+    width: 97%;
+    margin: 0 auto; 
+}
+
+/* Buttons */
+
+button {
+    padding: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+#like-btn, #nope-btn {
+    
+}
+
+#like-btn {
+    background: url("./images/icon-heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+#nope-btn {
+    background: url("./images/icon-cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+#nope-btn:hover,
+#nope-btn:active {
+    background-color: #FFE7EF;
+}
+
+#like-btn:hover,
+#like-btn:active {
+    background-color: #DBFFF4;
+}
+
+/* Text */
+
+h1, p {
+    padding-left: 10px;
+}
